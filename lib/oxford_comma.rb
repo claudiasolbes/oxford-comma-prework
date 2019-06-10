@@ -3,7 +3,7 @@ def oxford_comma(array)
   str = ""
   len = array.length
   if len == 1
-    str << array[0] << " and " << array.pop
+    str << array[0] << " and " << last
   elsif (len > 0 && len != 1)
     array.each do |entry|
       str << entry << ", "
