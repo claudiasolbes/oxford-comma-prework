@@ -8,9 +8,9 @@ def oxford_comma(array)
     array.each do |entry|
       str << entry << ", "
     end
-    str << "and " << array.pop
+    str << "and " << last
   else
-    str << array.pop
+    str << last
   end
   return str
 end
