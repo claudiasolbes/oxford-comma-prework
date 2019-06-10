@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  # last = array.pop
+  last = array.pop
   str = ""
   len = array.length
   if len == 1
